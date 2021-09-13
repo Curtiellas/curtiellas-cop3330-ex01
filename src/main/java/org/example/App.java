@@ -9,9 +9,11 @@ import java.util.*;
 
 public class App {
     public static void main( String[] args ) {
-        Scanner sc= new Scanner(System.in);                         //System.in is a standard input stream
+        Scanner sc= new Scanner(System.in);
+
         System.out.println("What is your name? ");
-        String name= sc.nextLine();                                 //reads string
-        System.out.println("Hello, " + name + ", nice to meet you!");     //print the message
+        String name= sc.nextLine();                                     //reads string
+
+        System.out.println("Hello, " + name + ", nice to meet you!");   //print the message
     }
 }
